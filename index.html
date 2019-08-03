@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+
+  <div id="theHeader" class="header">
+    <h2>App Store Excel Builder</h2>
+  </div>
+
+  <div id="theBlurb" class="blurb">
+    <span>A tool that instantly retreives (Apple) app store data.
+      Add up to 10 search terms, submit, and click the link to download the Excel file.</span>
+  </div>
+
+  <div id="thePrompt" class="prompt">
+    <span>Add search terms to the query</span>
+  </div>
+
+  <div id="theInput" class="input">
+    <input type="text" id="myInput" placeholder="Enter a search term...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+  </ul>
+
+  <div id="submitDIV" class='submit'>
+    <span onclick="submitQuery()" class="submitBtn">Submit</span>
+  </div>
+  <div id="thePrompt" class="feedback">
+    <span>Got feedback? Email us at: hello@contentcoder.net</span>
+  </div>
+
+  <div id="downloadLinkDIV" class='download'>
+  </div>
+
+</body>
+</html>
